@@ -7,6 +7,8 @@ This is a simple Asteroids game implemented in Python using the Pygame library. 
 - Collision detection between player, asteroids, and shots
 - Basic game loop and game over condition
 
+The main purpose of this project is to demonstrate knowledge of Python, OOP principles and library usage.
+
 ## How to Run
 
 1. Make sure you have Python 3 and Pygame installed.
@@ -16,9 +18,9 @@ This is a simple Asteroids game implemented in Python using the Pygame library. 
    ```
 3. Run the game:
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 ## About
 
-This project was made as a project for the boot.dev platform.
+This project was made for the boot.dev platform.
