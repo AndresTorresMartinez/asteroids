@@ -21,6 +21,10 @@ The main purpose of this project is to demonstrate knowledge of Python, OOP prin
    python3 main.py
    ```
 
+## Screenshot
+
+<img src="assets/screenshot.png" alt="Screenshot" width="50%" height="50%"/>
+
 ## About
 
 This project was made for the boot.dev platform.
