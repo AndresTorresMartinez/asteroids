@@ -1,14 +1,18 @@
 # Asteroids Game
 # Author: Andrés Torres
 # Date: 2025-08-01
-# This is the main file for run the game
+# This is the main file to run the game
 
+import os
 import pygame
 from constants import *
 from libs.player import Player
 from libs.asteroid import Asteroid
 from libs.asteroidfield import AsteroidField
 from libs.shot import Shot
+
+if os.getenv("GITHUB_ACTIONS"):
+    os.environ["SDL_VIDEODRIVER"] = "dummy" # A fake screen for the test in github actions
 
 def main():
     pygame.init()
@@ -57,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    pygame.quit()
